@@ -1,5 +1,5 @@
 from app import db, Countries, Cities
-
+db.drop_all()
 db.create_all() # Creates all table classes defined
 
 uk = Countries(name = 'United Kingdom') #Add example to countries table
